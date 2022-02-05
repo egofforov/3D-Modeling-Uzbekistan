@@ -1,0 +1,327 @@
+/* Core Style */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+}
+body {
+  background-color: #F5F3F4;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.side-header {
+  width: 100%;
+}
+
+.side-nav {
+  width: 100%;
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 0.75rem;
+  padding: 0.7rem 1.44rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-size: 200% auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-subtitle,
+.secton-title,
+.btn-box,
+.social-networks__svg {
+  width: 100%;
+}
+
+/* Side Header Style */
+.side-nav__items {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-nav__item {
+  margin-right: 1rem;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  padding: 1.2rem 0;
+}
+
+.side-nav__item:hover .side-nav__item-link {
+  top: 5px;
+  left: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  color: #34CAD2;
+}
+
+.side-nav__item-link {
+  border: none;
+  outline: none;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  background-color: #F5F3F4;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #125A5E;
+  font-weight: 500;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sub-menu__items {
+  width: 10rem;
+  background: linear-gradient(to top, #eaf0ff, #fff);
+  border-radius: 0.3rem;
+  padding: 0.8rem;
+  transform-origin: top left;
+  transform: scaleY(0);
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  z-index: 1;
+}
+
+.sub-menu__items::before {
+  content: " ";
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #fff;
+  top: -6px;
+  left: 20%;
+  position: absolute;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.side-nav__item:hover .sub-menu__items {
+  transform: scaleY(1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sub-menu__link {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #12100C;
+}
+
+.bgc_1 {
+  background-color: #12100C;
+  color: #F5F3F4;
+}
+
+.bgc_1:hover {
+  background-color: #383838;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Side Footer Style */
+.side-footer {
+  width: 100%;
+  padding: 6.25rem 0;
+  background-color: #F9F9F9;
+}
+
+.mini-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.mini-container__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2.3rem;
+}
+
+.footer-menu__item:first-child {
+  font-weight: 700;
+  font-size: 0.81rem;
+  line-height: 1.21rem;
+  color: #000000;
+}
+
+.footer-menu__link, .copyright-text {
+  color: #12100CB2;
+  font-weight: 400;
+  font-size: 0.81rem;
+  line-height: 1.21rem;
+}
+
+.footer-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.footer-icon__logo {
+  display: flex;
+  align-items: center;
+}
+
+.copyright-text {
+  display: block;
+  margin-left: 0.56rem;
+}
+
+.footer-social__svg svg + svg {
+  margin-left: 1rem;
+}
+
+/* vectors effect */
+#Vector_1, #Vector_2, #Vector_3,
+#Vector_4, #Vector_5, #Vector_6, #Vector_7,
+#Vector_8, #Vector_9, #Vector_10,
+#Vector_11, #Vector_12, #Vector_13 {
+  transform-origin: center center;
+  animation-name: animation_diagramm;
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation_diagramm {
+  from {
+    transform: scaleY(1);
+  }
+
+  to {
+    transform: scaleY(0.5);
+  }
+}
+
+#Vector_18, #Vector_19, #Vector_20,
+#Vector_21, #Vector_22, #Vector_23, #Vector_24,
+#Vector_25, #Vector_26, #Vector_27,
+#Vector_28, #Vector_29, #Vector_30,
+#Vector_31, #Vector_32, #Vector_33, #Vector_34,
+#Vector_35, #Vector_36, #Vector_37,
+#Vector_169, #Vector_170, #Vector_171,
+#Vector_172, #Vector_173, #Vector_174, #Vector_175,
+#Vector_176, #Vector_177, #Vector_178,
+#Vector_179, #Vector_180, #Vector_181,
+#Vector_182, #Vector_183, #Vector_184, #Vector_185,
+#Vector_186, #Vector_187, #Vector_188 {
+  transform-origin:  bottom;
+  animation-name: animation_flowers;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation_flowers {
+  from {
+    transform: skewX(0);
+  }
+
+  to {
+    transform: skewX(-5deg);
+  }
+}
+
+#Vector_39, #Vector_40, #Vector_41 {
+  animation-name: animation_cloud;
+  animation-direction: alternate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation_cloud {
+  from {
+    transform: translateX(-20px);
+  }
+
+  to {
+    transform: translateY(30px);
+  }
+}
+
+#Vector_201, #Vector_202, #Vector_203 , #Vector_204 {
+  animation-name: sms;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sms {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#Vector_373, #Vector_374, #Vector_375,
+#Vector_376, #Vector_377, #Vector_378, #Vector_379,
+#Vector_380, #Vector_381, #Vector_382,
+#Vector_383, #Vector_384, #Vector_385,
+#Vector_386 {
+  transform-origin:  bottom;
+  animation-name: animation_dollar;
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  transform-style: preserve-3d;
+  perspective: 800px;
+}
+
+@keyframes animation_dollar {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform:  translateY(30px);
+  }
+}
+/* /Core Style */

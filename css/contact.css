@@ -1,0 +1,93 @@
+
+/* Contact form Style */
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-img svg {
+  width: 100%;
+}
+
+.contact-form {
+  padding: 11rem 10rem;
+}
+.contact-img, .contact-form{
+  width: 50%;
+}
+
+.form-text {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.18rem;
+  color: #2D3748;
+  margin: 2px;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.19rem;
+  color: #1A202C;
+  margin-bottom: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  margin: 0.69rem 0 1.75rem 0;
+  border: none;
+  outline: none;
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+}
+
+.radio__link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio-check {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.btn-wrapper {
+  margin-top: 1.68rem;
+}
+
+.full {
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.full:nth-child(1) {
+  background-color: #04C35C;
+}
+
+.full:nth-child(2) {
+  background-color: #2D3748;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.full:nth-child(2) img {
+  margin-right: 11px;
+}
+
+.form-footer {
+  display: block;
+  text-align: center;
+  margin-top: 11.125rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.17rem;
+}

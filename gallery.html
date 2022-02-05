@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/share.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <title>Gallery</title>
+</head>
+<body>
+    <!-- Side Header -->
+    <div class="container">
+      <header class="side-header">
+        <nav class="side-nav">
+          <svg width="131" height="40" viewBox="0 0 131 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Frame" clip-path="url(#clip0_1:41)">
+            <path id="vectors" d="M56.0449 30.4444C50.1877 30.4444 46 26.25 46 20.7222C46 15.1944 50.216 11 55.96 11C58.7895 11 60.9966 12.0833 62.8358 13.6667L61.6757 16.0278C60.2609 14.6389 58.45 13.5 55.8468 13.5C51.6025 13.5 48.5466 16.4167 48.5466 20.7222C48.5466 25.0278 51.5742 27.9444 55.8751 27.9444C59.5818 27.9444 62.2133 25.75 62.6377 22.4167H55.0828V19.9167H65.5239V20.0278C65.5239 26.1389 62.0152 30.4444 56.0449 30.4444Z" fill="#12100C"/>
+            <path id="Vector_2" d="M68.1803 16.5556H70.6137V30.4444H68.1803V16.5556Z" fill="#12100C"/>
+            <path id="Vector_3" d="M82.1393 30.25V28.1389C81.3753 28.2778 80.7528 28.3611 79.8473 28.3611C78.6589 28.3611 78.2345 27.75 78.2345 26.6944V18.6389H82.111V16.5556H78.2345V12.8333H75.8011V16.5556H72.9998V18.6389H75.8011V26.5556C75.8011 29.5 77.131 30.5833 79.7059 30.5833C80.6113 30.5833 81.4036 30.4444 82.1393 30.25Z" fill="#12100C"/>
+            <path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M87.0989 36H84.6655V16.5556H87.0989V18.5556C88.259 17.0278 89.9851 16.2222 92.0789 16.2222C96.0969 16.2222 98.8981 19.2222 98.8981 23.5C98.8981 27.7778 96.0969 30.7778 92.0789 30.7778C90.07 30.7778 88.4288 30 87.0989 28.4167V36ZM86.9292 23.5C86.9292 26.5833 88.7967 28.5556 91.6545 28.5556C94.5123 28.5556 96.3798 26.5556 96.3798 23.5C96.3798 20.4444 94.5123 18.4444 91.6545 18.4444C88.7967 18.4444 86.9292 20.4167 86.9292 23.5Z" fill="#12100C"/>
+            <path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M100.413 23.5C100.413 27.6667 103.582 30.7778 107.826 30.7778C112.071 30.7778 115.24 27.6667 115.24 23.5C115.24 19.3333 112.071 16.2222 107.826 16.2222C103.582 16.2222 100.413 19.3333 100.413 23.5ZM112.722 23.5C112.722 26.3889 110.769 28.4722 107.826 28.4722C104.884 28.4722 102.931 26.3889 102.931 23.5C102.931 20.6111 104.884 18.5278 107.826 18.5278C110.769 18.5278 112.722 20.6111 112.722 23.5Z" fill="#12100C"/>
+            <path id="Vector_6" fill-rule="evenodd" clip-rule="evenodd" d="M128.567 11H131V30.4444H128.567V28.4444C127.406 29.9722 125.68 30.7778 123.587 30.7778C119.569 30.7778 116.767 27.7778 116.767 23.5C116.767 19.2222 119.569 16.2222 123.587 16.2222C125.596 16.2222 127.237 17 128.567 18.5833V11ZM128.736 23.5C128.736 20.4167 126.869 18.4444 124.011 18.4444C121.153 18.4444 119.286 20.4444 119.286 23.5C119.286 26.5556 121.153 28.5556 124.011 28.5556C126.869 28.5556 128.736 26.5833 128.736 23.5Z" fill="#12100C"/>
+            <path id="Vector_7" d="M69.4026 14.7302C70.3643 14.7302 71.1439 13.9679 71.1439 13.0275C71.1439 12.087 70.3643 11.3247 69.4026 11.3247C68.4408 11.3247 67.6612 12.087 67.6612 13.0275C67.6612 13.9679 68.4408 14.7302 69.4026 14.7302Z" fill="#12100C"/>
+            <path id="Vector_8" fill-rule="evenodd" clip-rule="evenodd" d="M21.388 1.99199C22.4572 3.8871 21.8071 6.30126 19.936 7.38418L8.30155 14.1176C7.99402 14.2956 7.8042 14.6271 7.8042 14.9861V25.5563C7.8042 25.9153 7.99402 26.2467 8.30155 26.4247L17.511 31.7548C17.8141 31.9301 18.1859 31.9301 18.489 31.7548L27.6985 26.4247C28.006 26.2467 28.1958 25.9153 28.1958 25.5563V18.9825L19.9175 23.7132C18.0406 24.7858 15.6605 24.1142 14.6015 22.2133C13.5425 20.3123 14.2056 17.9017 16.0825 16.8292L27.9277 10.0602C31.5358 7.99827 36 10.6386 36 14.8346V26.3588C36 29.0581 34.572 31.5504 32.258 32.8896L21.6846 39.009C19.4014 40.3303 16.5986 40.3303 14.3154 39.009L3.74196 32.8896C1.42803 31.5504 0 29.0581 0 26.3588V14.1835C0 11.4843 1.42803 8.99201 3.74196 7.65282L16.064 0.521394C17.9351 -0.561524 20.3188 0.0968852 21.388 1.99199Z" fill="url(#paint0_linear_1:41)"/>
+            </g>
+            <defs>
+            <linearGradient id="paint0_linear_1:41" x1="27.0957" y1="6.04878" x2="8.28086" y2="35.2541" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFB45B"/>
+            <stop offset="1" stop-color="#FF8A00"/>
+            </linearGradient>
+            <clipPath id="clip0_1:41">
+            <rect width="131" height="40" fill="white"/>
+            </clipPath>
+            </defs>
+          </svg>
+          <ul class="side-nav__items">
+            <li class="side-nav__item">
+              <a href="index.html" class="side-nav__item-link">Features</a>
+              <ul class="sub-menu__items">
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">About Carolina</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">COVID-19</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Health</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Money & Tax</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Vote & Election</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Latest News</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Events</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Departments</a>
+                </li>
+              </ul>
+            </li>
+            <li class="side-nav__item">
+              <a href="contact.html" class="side-nav__item-link">Contact</a>
+               <ul class="sub-menu__items">
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">About Carolina</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">COVID-19</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Health</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Money & Tax</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Vote & Election</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Latest News</a>
+                </li>
+              </ul>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__item-link">Gallery</a>
+               <ul class="sub-menu__items">
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">About Carolina</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">COVID-19</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Health</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Money & Tax</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Vote & Election</a>
+                </li>
+              </ul>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__item-link">About Us</a>
+              <ul class="sub-menu__items">
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">About Carolina</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">COVID-19</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Health</a>
+                </li>
+              </ul>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__item-link">Services</a>
+               <ul class="sub-menu__items">
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">About Carolina</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">COVID-19</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Health</a>
+                </li>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Departments</a>
+                </li>
+              </ul>
+            </li>
+            <li class="side-nav__item">
+            <a href="#side-footer" class="side-nav__item-link">Help</a>
+              <ul class="sub-menu__items">
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">About Carolina</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">COVID-19</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Health</a>
+                </li>
+                <li class="sub-menu__item">
+                  <a href="#" class="sub-menu__link">Money & Tax</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button class="btn bgc_1" type="submit">Log in</button>
+        </nav>
+      </header>
+    </div>
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+      <div class="container flex-container">
+      <div class="welcome-section__image">
+        <div id="wrapper">
+          <div id="cub-wrapper">
+            <div class="tomonlari" id="front">
+              <img src="img/3d/slide_1.jpg" alt="">
+            </div>
+            <div class="tomonlari" id="back">
+              <img src="img/3d/slide_2.jpg" alt="">
+            </div>
+            <div class="tomonlari" id="right">
+              <img src="img/3d/slide_3.jpg" alt="">
+            </div>
+            <div class="tomonlari" id="left">
+              <img src="img/3d/slide_4.jpg" alt="">
+            </div>
+            <div class="tomonlari" id="top">
+              <img src="img/3d/slide_5.jpg" alt="">
+            </div>
+            <div class="tomonlari" id="bottom">
+              <img src="img/3d/slide_6.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="welcome-section__info">
+        <h1 class="welcome-section__subtitle">
+          Welcome to Amazing <br> Carolina City
+        </h1>
+        <p class="welcome-section__title">
+          ‘’Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus <br> magna enim id integer congue e’’
+        </p>
+        <br>
+        <p class="welcome-section__title">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem et lacoo <br>
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa <br>
+          quae ab illo inventore veritatis et quasi architecto beatae vitae dicta <br>
+          sunt explicabo et quasi architecto beatae vitae dicta rem aperiam.
+        </p>
+      </div>
+    </div>
+    </section>
+    <!-- Carusel Section -->
+    <section class="carusel-section">
+      <h1 class="welcome-section__subtitle">
+        Our Latest Products
+      </h1>
+      <div class="slide-container">
+        <span class="slider-span" id="slider-span1"></span>
+        <span class="slider-span" id="slider-span2"></span>
+        <span class="slider-span" id="slider-span3"></span>
+        <span class="slider-span" id="slider-span4"></span>
+        <span class="slider-span" id="slider-span5"></span>
+        <span class="slider-span" id="slider-span6"></span>
+        <span class="slider-span" id="slider-span7"></span>
+        <span class="slider-span" id="slider-span8"></span>
+        <span class="slider-span" id="slider-span9"></span>
+        <span class="slider-span" id="slider-span10"></span>
+
+        <div class="image-slider">
+          <div class="slides-div" id="slide-1">
+            <img src="img/3d/3d-hous_1.1.jpg" alt="House 3D" class="img" id="img1">
+            <div class="slide-div__info">
+              <h1 class="slide-info__subtitle">Jono Sape</h1>
+              <p class="slide-info__title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, quam.</p>
+              <div class="social__network-next">
+                <a href="#" class="button">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#slider-span1" class="button" id="button-1">
+                  <i class="fas fa-arrows-alt-h"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-div" id="slide-2">
+            <img src="img/3d/3d-hous_1.2.jpg" alt="House 3D" class="img" id="img2">
+            <div class="slide-div__info">
+              <h1 class="slide-info__subtitle">Joni Zhak</h1>
+              <p class="slide-info__title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, rem!</p>
+              <div class="social__network-next">
+                <a href="#" class="button">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#slider-span2" class="button" id="button-2">
+                  <i class="fas fa-arrows-alt-h"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-div" id="slide-3">
+            <img src="img/3d/3d-hous_1.3.jpg" alt="House 3D" class="img" id="img3">
+                      <div class="slide-div__info">
+              <h1 class="slide-info__subtitle">Bancilot Jack</h1>
+              <p class="slide-info__title">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+              <div class="social__network-next">
+                <a href="#" class="button">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#slider-span3" class="button" id="button-3">
+                  <i class="fas fa-arrows-alt-h"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-div" id="slide-4">
+            <img src="img/3d/3d-hous_1.4.jpg" alt="House 3D" class="img" id="img4">
+                      <div class="slide-div__info">
+              <h1 class="slide-info__subtitle">Aurora Lee</h1>
+              <p class="slide-info__title">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+              <div class="social__network-next">
+                <a href="#" class="button">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#slider-span4" class="button" id="button-4">
+                  <i class="fas fa-arrows-alt-h"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-div" id="slide-5">
+            <img src="img/3d/3d-hous_1.5.jpg" alt="House 3D" class="img" id="img5">
+                      <div class="slide-div__info">
+              <h1 class="slide-info__subtitle">Brown Baker</h1>
+              <p class="slide-info__title">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+              <div class="social__network-next">
+                <a href="#" class="button">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#slider-span5" class="button" id="button-5">
+                  <i class="fas fa-arrows-alt-h"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-div" id="slide-6">
+            <img src="img/3d/3d-hous_1.6.jpg" alt="House 3D" class="img" id="img6">
+                      <div class="slide-div__info">
+              <h1 class="slide-info__subtitle">Michael Rick</h1>
+              <p class="slide-info__title">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+              <div class="social__network-next">
+                <a href="#" class="button">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#slider-span6" class="button" id="button-6">
+                  <i class="fas fa-arrows-alt-h"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="slides-div" id="slide-7">
+            <img src="img/3d/3d-hous_1.7.jpg" alt="House 3D" class="img" id="img7">
+             <div class="slide-div__info">
+              <h1 class="slide-info__subtitle">Jono Sape</h1>
+              <p class="slide-info__title">Lorem ipsum dolor sit <br>
+                 amet consectetur adipisicing elit. Illo, minima.</p>
+              <div class="social__network-next">
+                <a href="#" class="button">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#" class="button">
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#slider-span7" class="button" id="button-7">
+                  <i class="fas fa-arrows-alt-h"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- statistcs Section -->
+      <div class="container">
+        <section class="statistcs-section">
+          <div class="statistcs-section__items">
+            <div class="statistcs-section__item">
+              <h1 class="welcome-section__subtitle">
+                50 mil+
+              </h1>
+              <p class="welcome-section__title">
+                Local Resident
+              </p>
+            </div>
+            <div class="statistcs-section__item">
+              <h1 class="welcome-section__subtitle">
+                3,2k
+              </h1>
+              <p class="welcome-section__title">
+                Square KM
+              </p>
+            </div>
+            <div class="statistcs-section__item">
+              <h1 class="welcome-section__subtitle">
+                8 mil+
+              </h1>
+              <p class="welcome-section__title">
+                Foreign Visitors
+              </p>
+            </div>
+            <div class="statistcs-section__item">
+              <h1 class="welcome-section__subtitle">
+                150+
+              </h1>
+              <p class="welcome-section__title">
+                Tourist attractions
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Illustrator Explore City  Section-->
+      <div class="container">
+        <section class="explore-section">
+          <h1 class="welcome-section__subtitle center">
+            Explore Calorina City
+          </h1>
+          <p class="welcome-section__title center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus magna enim id integer congue <br> eu. Tempor urna augue sed elit blandit euismod ut in egestas. Habitant eget ut ipsum s
+          </p>
+          <div class="explore-section__items">
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/A Simple Shopping Experience, 3D Isometric Animation.mp4" type="video/mp4">
+              </video>
+              <div class="video__info">
+                <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/3D_product_animation_video_showreel_2021_3D_product_visualization.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/2d isometric motion graphics.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/2020_Products_Showreel_KeyShot_9,_Cinema4D,_After_Effects,_Solidworks.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/Isometric_Animation_by_Guyman_Studio_Smoc___Isometric_Video___GuymanStudio.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/Isometric_Animation_by_Guyman_Studio_FYGI___Isometric_Video___GuymanStudio.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/Centerline Isometric Animation Reel.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/Isometric Animation Explainer Video for Functionly.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/Explainer video - 3D animation - Micromole technology.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+            <div class="explore-section__item">
+              <video controls >
+                <source src="video/A5 Pure Imagination _ Motion Graphics.mp4" type="video/mp4">
+              </video>
+               <div class="views-box">
+                  <span class="views-box__icon">
+                    <i class="far fa-heart"></i>
+                    <i class="far fa-comment"></i>
+                    <i class="far fa-paper-plane"></i>
+                  </span>
+                  <i class="far fa-bookmark"></i>
+                </div>
+              <div class="video__info">
+                <h4 class="video__subtitle">
+                  Tricky mirror museum <br>
+                  in Carolina City
+                </h4>
+                <p class="video__title">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                </p>
+                <a class="btn btn-grad" href="#">See More</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    <!-- Side Footer -->
+  <footer id="side-footer" class="side-footer">
+    <div class="mini-container">
+      <div class="mini-container__menu">
+        <ul class="footer-menu__items">
+          <li class="footer-menu__item">Gitpod</li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Home</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Features</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Pricing</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Changelog</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Self-Hosted</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Gitpod vs GitHub</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Codespaces</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Status</a></li>
+        </ul>
+        <ul class="footer-menu__items">
+          <li class="footer-menu__item">Developer</li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Getting started</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Screencasts</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Blog</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Documentation</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Report a bug</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Community</a></li>
+        </ul>
+        <ul class="footer-menu__items">
+          <li class="footer-menu__item">Company</li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">About</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Careers</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Contact</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Media Kit</a></li>
+        </ul>
+        <ul class="footer-menu__items">
+          <li class="footer-menu__item">Legal</li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Imprint</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Terms of Service</a></li>
+          <li class="footer-menu__item"><a href="#" class="footer-menu__link">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <hr>
+      <nav class="footer-navigation">
+        <div class="footer-icon__logo">
+          <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Group">
+            <path id="vectors" fill-rule="evenodd" clip-rule="evenodd" d="M13.07 1.19487C13.2254 1.46531 13.3257 1.76382 13.3652 2.0732C13.4047 2.38258 13.3826 2.69672 13.3002 2.99752C13.2177 3.29832 13.0765 3.57983 12.8848 3.82584C12.6931 4.07184 12.4546 4.27747 12.183 4.43087L5.073 8.47087C4.98099 8.52306 4.90441 8.59864 4.85102 8.68996C4.79763 8.78128 4.76934 8.88509 4.769 8.99087V15.3339C4.76934 15.4397 4.79763 15.5435 4.85102 15.6348C4.90441 15.7261 4.98099 15.8017 5.073 15.8539L10.701 19.0529C10.7921 19.1047 10.8952 19.1319 11 19.1319C11.1048 19.1319 11.2079 19.1047 11.299 19.0529L16.927 15.8549C17.0192 15.8026 17.0958 15.7269 17.1492 15.6354C17.2026 15.5438 17.2308 15.4398 17.231 15.3339V11.3899L12.171 14.2279C11.6204 14.5369 10.97 14.6157 10.3616 14.4471C9.75313 14.2785 9.23603 13.8762 8.923 13.3279C8.76928 13.0566 8.67074 12.7576 8.63305 12.4482C8.59536 12.1387 8.61926 11.8248 8.70337 11.5246C8.78749 11.2243 8.93016 10.9437 9.12317 10.6989C9.31618 10.454 9.55572 10.2498 9.828 10.0979L17.067 6.03587C19.272 4.79987 22 6.38287 22 8.90087V15.8149C22 17.4349 21.127 18.9299 19.713 19.7339L13.252 23.4049C12.5655 23.7948 11.7895 23.9998 11 23.9998C10.2105 23.9998 9.43451 23.7948 8.748 23.4049L2.287 19.7339C1.59342 19.3411 1.01636 18.7714 0.614615 18.083C0.212869 17.3946 0.00079447 16.612 0 15.8149V8.50987C0 6.88987 0.873 5.39487 2.287 4.59187L9.817 0.311873C10.366 -0.000109702 11.0161 -0.0823635 11.6255 0.0830506C12.2348 0.248465 12.7541 0.648127 13.07 1.19487Z" fill="url(#paint0_linear_1:77)"/>
+            </g>
+            <defs>
+            <linearGradient id="paint0_linear_1:77" x1="16.558" y1="3.62887" x2="5.356" y2="21.3399" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFB45B"/>
+            <stop offset="1" stop-color="#FF8A00"/>
+            </linearGradient>
+            </defs>
+            </svg>
+          <span class="copyright-text">
+            Copyright © 2021 Gitpod
+          </span>
+        </div>
+        <div class="footer-social__svg">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Frame">
+            <path id="vectors" fill-rule="evenodd" clip-rule="evenodd" d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM11.6406 9.75375L11.6658 10.169L11.2461 10.1181C9.71843 9.92323 8.38383 9.26226 7.25067 8.15216L6.69668 7.60135L6.55399 8.0081C6.25181 8.91482 6.44487 9.87239 7.0744 10.5164C7.41015 10.8723 7.33461 10.9232 6.75544 10.7113C6.55399 10.6435 6.37772 10.5927 6.36093 10.6181C6.30218 10.6774 6.50363 11.4486 6.66311 11.7536C6.88134 12.1773 7.32621 12.5925 7.81305 12.8383L8.22435 13.0332L7.73751 13.0417C7.26746 13.0417 7.25067 13.0501 7.30103 13.2281C7.46891 13.7789 8.13201 14.3636 8.87066 14.6178L9.39108 14.7958L8.93781 15.067C8.26631 15.4568 7.4773 15.6771 6.68829 15.694C6.31057 15.7025 6 15.7364 6 15.7618C6 15.8466 7.02404 16.3211 7.61999 16.5075C9.40786 17.0584 11.5315 16.8211 13.1263 15.8805C14.2595 15.211 15.3926 13.8806 15.9214 12.5925C16.2068 11.9062 16.4922 10.652 16.4922 10.0503C16.4922 9.66054 16.5174 9.60969 16.9874 9.14362C17.2644 8.87245 17.5246 8.57586 17.575 8.49112C17.6589 8.33011 17.6505 8.33011 17.2224 8.47417C16.509 8.72839 16.4083 8.6945 16.7608 8.31317C17.021 8.042 17.3316 7.5505 17.3316 7.40645C17.3316 7.38102 17.2057 7.42339 17.063 7.49966C16.9119 7.5844 16.5761 7.71151 16.3243 7.78778L15.8711 7.93184L15.4598 7.65219C15.2331 7.49966 14.9142 7.33018 14.7463 7.27934C14.3182 7.1607 13.6635 7.17765 13.2774 7.31323C12.2282 7.69456 11.5651 8.67755 11.6406 9.75375Z" fill="url(#paint0_linear_1:68)"/>
+            </g>
+            <defs>
+            <linearGradient id="paint0_linear_1:68" x1="3.45" y1="3.45" x2="21.107" y2="22.6608" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#FFAD33"/>
+            <stop offset="1" stop-color="#FF8A00"/>
+            </linearGradient>
+            </defs>
+            </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="vectors" fill-rule="evenodd" clip-rule="evenodd" d="M0 11.7908C0 5.2781 5.48155 0 11.9919 0C18.4953 0 23.7804 5.48618 23.7804 11.9965C23.7804 18.5069 18.5 23.9884 11.9896 23.9884L0 24V11.7908ZM5.8306 8.13398C7.14804 5.9215 9.53234 4.56533 12.1074 4.56381H12.1143C15.0968 4.56526 17.7792 6.37901 18.8915 9.14636C20.0038 11.9137 19.3228 15.0793 17.1709 17.1445C15.019 19.2096 11.8281 19.7599 9.1088 18.5347L4.36012 19.6074L5.68254 15.3535C4.45692 13.0889 4.51317 10.3465 5.8306 8.13398Z" fill="url(#paint0_linear_1:65)"/>
+              <defs>
+              <linearGradient id="paint0_linear_1:65" x1="3.41843" y1="3.45" x2="21.0884" y2="22.499" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#FFAD33"/>
+              <stop offset="1" stop-color="#FF8A00"/>
+              </linearGradient>
+              </defs>
+              </svg>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path id="vectors" fill-rule="evenodd" clip-rule="evenodd" d="M12.0575 6.36076e-06C9.19512 -0.00296524 6.42524 1.03535 4.24425 2.92889C2.06326 4.82242 0.61373 7.4474 0.155424 10.3334C-0.302881 13.2194 0.259995 16.1778 1.74318 18.6784C3.22637 21.179 5.53292 23.0584 8.24948 23.9798C8.85581 24.0931 9.07024 23.7079 9.07024 23.3831C9.07024 23.0584 9.07024 22.3182 9.07024 21.291C5.70585 22.0387 4.996 19.637 4.996 19.637C4.77281 18.8926 4.29863 18.2531 3.65764 17.8319C2.57068 17.0766 3.74637 17.0766 3.74637 17.0766C4.1274 17.1316 4.49118 17.2744 4.81017 17.4942C5.12916 17.7141 5.395 18.0052 5.58754 18.3455C5.75115 18.6485 5.97172 18.9155 6.23661 19.1312C6.5015 19.347 6.80549 19.5071 7.13113 19.6026C7.45677 19.698 7.79765 19.7268 8.13422 19.6874C8.47079 19.6479 8.79642 19.541 9.09242 19.3726C9.13883 18.7513 9.40107 18.1674 9.83185 17.7262C7.15513 17.4165 4.34531 16.3591 4.34531 11.684C4.32693 10.4627 4.76906 9.28099 5.58015 8.38349C5.21891 7.3216 5.26113 6.15988 5.69846 5.12828C5.69846 5.12828 6.71147 4.79596 9.01109 6.38958C10.9858 5.83579 13.0701 5.83579 15.0448 6.38958C17.3444 4.79596 18.35 5.12828 18.35 5.12828C18.7935 6.14897 18.8462 7.30235 18.4979 8.36083C19.309 9.25834 19.7511 10.4401 19.7328 11.6614C19.7328 16.3893 16.9156 17.4241 14.2314 17.7035C14.5192 17.999 14.7415 18.3543 14.8831 18.7452C15.0247 19.1361 15.0824 19.5536 15.0522 19.9693C15.0522 21.6158 15.0522 22.9451 15.0522 23.3454C15.0522 23.7456 15.2666 24.0553 15.8804 23.9345C18.566 22.9888 20.838 21.1041 22.295 18.6132C23.752 16.1223 24.3002 13.1856 23.8428 10.3219C23.3854 7.45814 21.9518 4.85167 19.7953 2.96295C17.6388 1.07422 14.8982 0.024771 12.0575 6.36076e-06Z" fill="url(#paint0_linear_1:61)"/>
+                <defs>
+                <linearGradient id="paint0_linear_1:61" x1="3.45" y1="3.45" x2="21.107" y2="22.6608" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FFAD33"/>
+                <stop offset="1" stop-color="#FF8A00"/>
+                </linearGradient>
+                </defs>
+              </svg>
+        </div>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
